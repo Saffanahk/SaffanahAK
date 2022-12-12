@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885C818C2947666C00536AD3 /* SaffanahGitubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C818B2947666C00536AD3 /* SaffanahGitubApp.swift */; };
+		885C818E2947666C00536AD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C818D2947666C00536AD3 /* ContentView.swift */; };
+		885C81902947666D00536AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885C818F2947666D00536AD3 /* Assets.xcassets */; };
+		885C81932947666D00536AD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885C81922947666D00536AD3 /* Preview Assets.xcassets */; };
+		885C819D2947666D00536AD3 /* SaffanahGitubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C819C2947666D00536AD3 /* SaffanahGitubTests.swift */; };
+		885C81A72947666D00536AD3 /* SaffanahGitubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C81A62947666D00536AD3 /* SaffanahGitubUITests.swift */; };
+		885C81A92947666D00536AD3 /* SaffanahGitubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C81A82947666D00536AD3 /* SaffanahGitubUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885C81992947666D00536AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885C81802947666C00536AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885C81872947666C00536AD3;
+			remoteInfo = SaffanahGitub;
+		};
+		885C81A32947666D00536AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885C81802947666C00536AD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885C81872947666C00536AD3;
+			remoteInfo = SaffanahGitub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		885C81882947666C00536AD3 /* SaffanahGitub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaffanahGitub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885C818B2947666C00536AD3 /* SaffanahGitubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaffanahGitubApp.swift; sourceTree = "<group>"; };
+		885C818D2947666C00536AD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		885C818F2947666D00536AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		885C81922947666D00536AD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		885C81982947666D00536AD3 /* SaffanahGitubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaffanahGitubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885C819C2947666D00536AD3 /* SaffanahGitubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaffanahGitubTests.swift; sourceTree = "<group>"; };
+		885C81A22947666D00536AD3 /* SaffanahGitubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaffanahGitubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885C81A62947666D00536AD3 /* SaffanahGitubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaffanahGitubUITests.swift; sourceTree = "<group>"; };
+		885C81A82947666D00536AD3 /* SaffanahGitubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaffanahGitubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885C81852947666C00536AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C81952947666D00536AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C819F2947666D00536AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885C817F2947666C00536AD3 = {
+			isa = PBXGroup;
+			children = (
+				885C818A2947666C00536AD3 /* SaffanahGitub */,
+				885C819B2947666D00536AD3 /* SaffanahGitubTests */,
+				885C81A52947666D00536AD3 /* SaffanahGitubUITests */,
+				885C81892947666C00536AD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885C81892947666C00536AD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885C81882947666C00536AD3 /* SaffanahGitub.app */,
+				885C81982947666D00536AD3 /* SaffanahGitubTests.xctest */,
+				885C81A22947666D00536AD3 /* SaffanahGitubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885C818A2947666C00536AD3 /* SaffanahGitub */ = {
+			isa = PBXGroup;
+			children = (
+				885C818B2947666C00536AD3 /* SaffanahGitubApp.swift */,
+				885C818D2947666C00536AD3 /* ContentView.swift */,
+				885C818F2947666D00536AD3 /* Assets.xcassets */,
+				885C81912947666D00536AD3 /* Preview Content */,
+			);
+			path = SaffanahGitub;
+			sourceTree = "<group>";
+		};
+		885C81912947666D00536AD3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				885C81922947666D00536AD3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		885C819B2947666D00536AD3 /* SaffanahGitubTests */ = {
+			isa = PBXGroup;
+			children = (
+				885C819C2947666D00536AD3 /* SaffanahGitubTests.swift */,
+			);
+			path = SaffanahGitubTests;
+			sourceTree = "<group>";
+		};
+		885C81A52947666D00536AD3 /* SaffanahGitubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				885C81A62947666D00536AD3 /* SaffanahGitubUITests.swift */,
+				885C81A82947666D00536AD3 /* SaffanahGitubUITestsLaunchTests.swift */,
+			);
+			path = SaffanahGitubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885C81872947666C00536AD3 /* SaffanahGitub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885C81AC2947666D00536AD3 /* Build configuration list for PBXNativeTarget "SaffanahGitub" */;
+			buildPhases = (
+				885C81842947666C00536AD3 /* Sources */,
+				885C81852947666C00536AD3 /* Frameworks */,
+				885C81862947666C00536AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaffanahGitub;
+			productName = SaffanahGitub;
+			productReference = 885C81882947666C00536AD3 /* SaffanahGitub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885C81972947666D00536AD3 /* SaffanahGitubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885C81AF2947666D00536AD3 /* Build configuration list for PBXNativeTarget "SaffanahGitubTests" */;
+			buildPhases = (
+				885C81942947666D00536AD3 /* Sources */,
+				885C81952947666D00536AD3 /* Frameworks */,
+				885C81962947666D00536AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885C819A2947666D00536AD3 /* PBXTargetDependency */,
+			);
+			name = SaffanahGitubTests;
+			productName = SaffanahGitubTests;
+			productReference = 885C81982947666D00536AD3 /* SaffanahGitubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		885C81A12947666D00536AD3 /* SaffanahGitubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885C81B22947666D00536AD3 /* Build configuration list for PBXNativeTarget "SaffanahGitubUITests" */;
+			buildPhases = (
+				885C819E2947666D00536AD3 /* Sources */,
+				885C819F2947666D00536AD3 /* Frameworks */,
+				885C81A02947666D00536AD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885C81A42947666D00536AD3 /* PBXTargetDependency */,
+			);
+			name = SaffanahGitubUITests;
+			productName = SaffanahGitubUITests;
+			productReference = 885C81A22947666D00536AD3 /* SaffanahGitubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885C81802947666C00536AD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					885C81872947666C00536AD3 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					885C81972947666D00536AD3 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 885C81872947666C00536AD3;
+					};
+					885C81A12947666D00536AD3 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 885C81872947666C00536AD3;
+					};
+				};
+			};
+			buildConfigurationList = 885C81832947666C00536AD3 /* Build configuration list for PBXProject "SaffanahGitub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 885C817F2947666C00536AD3;
+			productRefGroup = 885C81892947666C00536AD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885C81872947666C00536AD3 /* SaffanahGitub */,
+				885C81972947666D00536AD3 /* SaffanahGitubTests */,
+				885C81A12947666D00536AD3 /* SaffanahGitubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885C81862947666C00536AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C81932947666D00536AD3 /* Preview Assets.xcassets in Resources */,
+				885C81902947666D00536AD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C81962947666D00536AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C81A02947666D00536AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885C81842947666C00536AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C818E2947666C00536AD3 /* ContentView.swift in Sources */,
+				885C818C2947666C00536AD3 /* SaffanahGitubApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C81942947666D00536AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C819D2947666D00536AD3 /* SaffanahGitubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885C819E2947666D00536AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885C81A92947666D00536AD3 /* SaffanahGitubUITestsLaunchTests.swift in Sources */,
+				885C81A72947666D00536AD3 /* SaffanahGitubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		885C819A2947666D00536AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885C81872947666C00536AD3 /* SaffanahGitub */;
+			targetProxy = 885C81992947666D00536AD3 /* PBXContainerItemProxy */;
+		};
+		885C81A42947666D00536AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885C81872947666C00536AD3 /* SaffanahGitub */;
+			targetProxy = 885C81A32947666D00536AD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		885C81AA2947666D00536AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		885C81AB2947666D00536AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		885C81AD2947666D00536AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaffanahGitub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saffanah.SaffanahGitub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		885C81AE2947666D00536AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaffanahGitub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saffanah.SaffanahGitub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		885C81B02947666D00536AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saffanah.SaffanahGitubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaffanahGitub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaffanahGitub";
+			};
+			name = Debug;
+		};
+		885C81B12947666D00536AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saffanah.SaffanahGitubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaffanahGitub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaffanahGitub";
+			};
+			name = Release;
+		};
+		885C81B32947666D00536AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saffanah.SaffanahGitubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaffanahGitub;
+			};
+			name = Debug;
+		};
+		885C81B42947666D00536AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = saffanah.SaffanahGitubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaffanahGitub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885C81832947666C00536AD3 /* Build configuration list for PBXProject "SaffanahGitub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C81AA2947666D00536AD3 /* Debug */,
+				885C81AB2947666D00536AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885C81AC2947666D00536AD3 /* Build configuration list for PBXNativeTarget "SaffanahGitub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C81AD2947666D00536AD3 /* Debug */,
+				885C81AE2947666D00536AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885C81AF2947666D00536AD3 /* Build configuration list for PBXNativeTarget "SaffanahGitubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C81B02947666D00536AD3 /* Debug */,
+				885C81B12947666D00536AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885C81B22947666D00536AD3 /* Build configuration list for PBXNativeTarget "SaffanahGitubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885C81B32947666D00536AD3 /* Debug */,
+				885C81B42947666D00536AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 885C81802947666C00536AD3 /* Project object */;
+}
